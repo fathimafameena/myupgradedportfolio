@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="Myportfolio">
+<meta name="author" content="FathimaFameena">
+<title>Fathima Portfolio</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+<body>
+
+<div class="container-fluid">
+	<header>
+	<nav>
+
+<div class="menu-icon">
+<i class="fa fa-bars fa-2x"></i>
+</div>
+		<div class="logo">
+		FATHIMA
+	</div>
+		<div class="menu">
+		<ul>
+
+			<li ><a href="#">Home</a></li>
+			<li ><a href="#content">About</a></li>
+			<li ><a href="#projects">Projects</a></li>
+			<li ><a href="#contact">Contact</a></li>
+		</ul>
+
+</div>
+		</nav>
+</header>
+
+<div class=" content" id="content">
+
+<h3 id="about">About me</h3>
+	<p>
+I have 2 years of experience as a Java Developer in Tata consultancy services </p>
+
+<p>Since I am always curious about web development ,i have always kept in touch with the technology through online learning and kept updating my knowledge in that .
+
+I have done a Nano degree Course in Udacity on the Front end Developer where i made a lot of real time Projects on current Technology on Front End.</p>
+
+<p><bold>Specialties:</bold> </p>
+<p>HTML5,CSS3,JavaScript,Responsive Web Design,Document Object Model (DOM),Object-Oriented Programming (OOP),Web Accessibility,ARIA,Gulp.js,Angular,Test Driven Development
+Jasmine Framework,Java,Model-View-Controller design pattern,jQuery,AJAX,Asynchronous JavaScript,Application Programming Interfaces,Git,GitHub
+Unix shell.
+	</p>
+	</div>
+
+
+	<div class="container-fluid" id="projects">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center bold">My Projects</h3>
+			</div>
+		</div>
+		<div class="row">
+
+			
+			<div class="col-sm-4">
+				<a href="https://fathimafameena.github.io/FathimaFameena-classicarcadefroggergame/" target="_blank"><img src="images/classicgame.jpeg" class="img-responsive projectimages" alt="Project1"></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://fathimafameena.github.io/FathimaFameena-Memory-game/" target="_blank"><img src="images/memorygame.jpeg" class="img-responsive projectimages" alt="Project1"></a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://github.com/fathimafameena/restaurentreview" target="_blank"><img src="images/review.jpeg" class="img-responsive projectimages" alt="Project1"></a>
+			</div>
+			
+		</div>
+		<
+		
+			
+			
+
+	<div class="container-fluid bg-black" id="contacts">
+
+<div class="row">
+
+	<div class="col-sm-12">
+
+		<h3 id="contacts" class="text-center text-white bold">Contact</h3>
+		<p class=" text-center text-white bold">mobile:4699944917</p>
+        <p class="text-center text-white bold">email:fameenaibrahim@gmail.com</p>
+	</div>
+</div>
+		<ul id="contactlist">
+
+			<li><a href="https://www.linkedin.com/in/fathima-fameena-sharfudeen-iamafrontenddeveloper" target="_blank"<i class="fa fa-linkedin fa-2x " aria-hidden="true"></a></i>
+			<li>
+            <li>
+
+            	<a href="https://github.com/fathimafameena" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></a></i>
+			</li>
+
+		</ul>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+$(".menu-icon").on("click",function(){
+	$("nav ul").toggleClass("showing");
+});
+$("nav ul li a").on("click",function(){
+$("nav ul").removeClass("showing");
+});
+});
+
+$(window).on("scroll",function(){
+
+if($(window).scrollTop()){
+
+
+	$("nav").addClass("black");
+
+}
+else{
+$("nav").removeClass("black");
+}
+})
+
+	</script>
+<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
